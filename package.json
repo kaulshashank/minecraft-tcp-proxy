@@ -1,5 +1,5 @@
 {
-  "name": "tcp-proxy",
+  "name": "mc-proxy-and-server-manager",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",

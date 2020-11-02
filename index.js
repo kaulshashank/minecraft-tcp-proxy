@@ -8,5 +8,5 @@ const backends = [
 
 (async function main() {
 	const proxy = Proxy(backends);
-	proxy.listen(frontend);
+	proxy.listen(frontend, () => console.log("Proxy server listening on", frontend));
 })();
