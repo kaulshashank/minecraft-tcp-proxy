@@ -12,7 +12,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {	
     "minecraft-protocol": "^1.19.0",
     "minimist": "^1.2.5"
   },

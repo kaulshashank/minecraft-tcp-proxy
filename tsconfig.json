@@ -10,7 +10,8 @@
 		"noErrorTruncation": true /* Generates corresponding d.ts files. */,
 		"esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
 		"moduleResolution": "node",
-		"resolveJsonModule": true
+		"resolveJsonModule": true,
+		"sourceMap": true
 	},
 	"include": ["./src", "./src/**/*.ts"],
 	"exclude": ["node_modules"]
