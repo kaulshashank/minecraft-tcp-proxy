@@ -1,6 +1,6 @@
 import minimist from "minimist";
 
-import Proxy from "./modules/proxy";
+import Proxy from "./proxy";
 import { generate } from "./modules/worldgen";
 import { run } from "./modules/runserver";
 
