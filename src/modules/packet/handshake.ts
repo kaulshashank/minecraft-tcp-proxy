@@ -30,7 +30,7 @@ export default {
 		const host = await unpackStringFromStream(socket, hostLength);
 		const port = Buffer.from(await readBytes(socket, 2)).readUIntBE(0, 2);
 		const nextState = await fromVarIntStream(socket);
-	
+
 		return {
 			id, size, host,
 			port, nextState, version
