@@ -1,8 +1,9 @@
 export default {
 	fetch: async (username: string) => ({
-		username,
-		name: "Speedrunman",
-		password: "#",
+		mcUsername: username,
+		// username: "Speedrunman",
+		// password: "#",
 		active: true, // allows connection
+		whitelist: [],
 	})
 }
