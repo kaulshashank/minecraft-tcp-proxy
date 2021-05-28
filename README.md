@@ -1,4 +1,4 @@
-# mc-speedrun-proxy
+# mc-proxy
 
 Create a world: `npm run worldgen`<br />
 Start a server: `npm run mc`<br />
