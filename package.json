@@ -14,7 +14,6 @@
   "license": "ISC",
   "dependencies": {
     "jspack": "0.0.4",
-    "minecraft-protocol": "^1.19.0",
     "minimist": "^1.2.5"
   },
   "devDependencies": {

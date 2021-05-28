@@ -15,8 +15,7 @@ const backends = [
 
 (async function main() {
 	if (argv["proxy"]) {
-		const proxy = Proxy(backends);
-		proxy.listen(frontend, () => console.log("Proxy server listening on", frontend));
+		Proxy(backends);
 	} else if (argv["generate"]) {
 		generate("1.16.1");
 	} else if (argv["server"]) {
